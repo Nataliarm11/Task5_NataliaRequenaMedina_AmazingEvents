@@ -1,0 +1,154 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header y footer */
+header {
+    min-height: 5vh;
+    background: black !important;  
+    /* background-color: white !important; */
+}
+
+
+footer {
+    min-height: 5vh;
+    background: black !important;
+    border-top: 5px double rgb(208, 10, 122);
+}
+
+#parteUnoHeader{
+     border-bottom: 2px double rgb(208, 10, 122); 
+    /* border-bottom: 2px double rosybrown; */
+}
+
+
+.logo {
+    width: 100px !important;
+    object-fit: cover;
+}
+
+a {
+    font-size: medium !important;
+    font-weight: 600 !important;
+    color: rgb(208, 10, 122) !important;
+}
+
+
+.redes {
+    width: 30px;
+    height: 30px;
+}
+.text {
+    color: rgb(208, 10, 122);
+}
+body{
+    background: linear-gradient(180deg, #DAF7A6,  #FFC300, #FF5733,#C70039, #900C3F, #581845)
+}
+
+
+/* Main */
+
+main{ 
+    min-height: 90vh;
+}
+
+.carousel-item img {
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+.carousel{
+    position: relative !important;
+}
+.carousel h2 {
+    width: fit-content !important;
+    height: fit-content !important;
+    color: rgb(208, 10, 122) !important;
+    font-size: 3rem !important;
+    font-weight: 600 !important;
+    background-color: rgba(0, 0, 0, 0.063);
+}
+
+/* Contact */
+
+
+.Dat {
+    /* background-color: rgba(237, 127, 247, 0.905); */
+    border: 8px ridge white;
+    background-color: gray;
+}
+
+input{
+    background-color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+textarea {
+    background-color:white;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.submit {
+    font-size: 19px;
+}
+
+
+/* Stats */
+table,
+tr,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.475);
+    width: 50vw !important;
+    height: 5vh !important;
+
+}
+
+article {
+    background-color:white !important;
+}
+
+/* STATS */
+
+caption {
+    background-color: rgba(214, 193, 205, 0.948) !important;
+    color: black;
+    border: 1px solid black;
+    font-size: medium;
+}
+
+.card-img-top {
+    height: 25vh;
+}
+
+.imagen {
+    height: 35vh;
+    width: auto !important;
+}
+
+
+.statsWelcome {
+    height:  30vh;
+    width: 35vh;
+
+}
+
+
+
+
+
+
+
+
+
